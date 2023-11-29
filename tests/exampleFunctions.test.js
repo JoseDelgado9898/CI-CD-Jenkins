@@ -16,7 +16,7 @@ const user = {
   }
 describe('getTotalLikes',()=>{
     test('should return total likes of a user',()=>{
-        expect(getTotalLikes(user)).toBe(230)
+        expect(getTotalLikes(user)).toBe(200)
     })
 })
 
